@@ -14,7 +14,7 @@ This project presents an end-to-end machine learning solution for predicting hou
 
 
 ---
-About Dataset
+## About Dataset
 This dataset provides key features for predicting house prices, including area, bedrooms, bathrooms, stories, amenities like air conditioning and parking, and information on furnishing status. It enables analysis and modelling to understand the factors impacting house prices and develop accurate predictions in real estate markets.
 Source: [Kagggle](https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction)
 File: Housing.csv
@@ -44,12 +44,14 @@ The project follows a standard machine learning pipeline:
 
 ---
 
-How to Run the Project
-Clone this repository or download the files
-Install dependencies:
+##  How to Run the Project
+1. Clone this repository or download the files
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
 
 Run the script:
 app.py
-Enter your message to test real-time predictions
+Enter your feature value to get real-time predictions
 (Type exit to quit the CLI)
